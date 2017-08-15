@@ -2,7 +2,7 @@
 
 ## What is this?
 
-Config files to set up a MacOS machine.
+Config files to set up a MacOS machine as I like it.
 
 ## To setup a new Mac
 
@@ -12,7 +12,7 @@ Config files to set up a MacOS machine.
 4. Copy public and private SSH keys to `~/.ssh`.
 5. Clone this repo to `~/.dotfiles`.
 6. Run `install.sh` to start the installation.
-7. Make sure Dropbox is set up and synced.
+7. Login to & sync Dropbox.
 8. Restore preferences by running `mackup restore`.
 9. Restart the computer.
 
