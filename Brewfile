@@ -1,89 +1,53 @@
-# Taps
 tap 'caskroom/cask'
-tap 'caskroom/fonts'
-tap 'caskroom/versions'
 tap 'homebrew/bundle'
-tap 'homebrew/dupes'
-tap 'homebrew/php'
 
-# Install ZSH
-brew 'zsh'
-brew 'zsh-completions'
-
-# Install GNU core utilities (those that come with macOS are outdated)
-brew 'coreutils'
-
-# Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
-brew 'findutils'
-
-# Install Bash 4
-brew 'bash'
-
-# Install more recent versions of some macOS tools
-brew 'homebrew/dupes/grep'
-
-# Install Binaries
 brew 'awscli'
+brew 'chruby'
+brew 'entr'
 brew 'git'
+brew 'heroku'
 brew 'hub'
-brew 'tree'
-brew 'mackup'
+brew 'leiningen'
 brew 'mas'
-brew 'node'
-brew 'trash'
-brew 'wget'
+brew 'node-build'
+brew 'nodenv'
+brew 'postgresql'
+brew 'redis'
+brew 'ruby-install'
+brew 'the_platinum_searcher'
+brew 'tree'
 
-# Development
-brew 'php71', args: ['with-debug']
-brew 'php71-intl'
-brew 'mariadb'
-
-# Apps
-cask 'aerial'
+# Mac apps, installed with https://caskroom.github.io/
 cask 'alfred'
+cask 'atom'
+cask 'aws-vault'
 cask 'caffeine'
 cask 'docker'
 cask 'dropbox'
 cask 'firefox'
-cask 'google-backup-and-sync'
+cask 'flux'
 cask 'google-chrome'
-cask 'gpgtools'
+cask 'handbrake'
+cask 'imageoptim'
+cask 'istat-menus'
 cask 'iterm2'
-cask 'mysqlworkbench'
-cask 'phpstorm'
-cask 'quip'
-cask 'sequel-pro'
-cask 'shuttle'
-cask 'slack'
-cask 'sublime-text'
+cask 'licecap'
+cask 'psequel'
+cask 'sketch'
+cask 'spectacle'
+cask 'the-unarchiver'
 cask 'torbrowser'
-cask 'tower'
-cask 'transmit'
-cask 'vagrant'
+cask 'transmission'
 cask 'virtualbox'
-cask 'virtualbox-extension-pack'
-cask 'vlc'
 
-# Quicklook
-cask 'qlcolorcode'
-cask 'qlmarkdown'
-cask 'quicklook-json'
-cask 'quicklook-csv'
-cask 'qlstephen'
-
-# Fonts
-cask 'font-sauce-code-powerline'
-cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
-
-# Install Mac App Store apps
+# Mac App Store apps, installed with https://github.com/argon/mas
 mas '1Password', id: 443987910
-mas 'Byword', id: 420212497
-mas 'Deckset', id: 847496013
-mas 'Gapplin', id: 768053424
-mas 'Giphy Capture', id: 668208984
-mas 'Paw', id: 584653203
-mas 'Sip', id: 507257563
-mas 'Sketch', id: 402476602
+mas 'CCMenu', id: 603117688
+mas 'Evernote', id: 406056744
+mas 'Quiver', id: 866773894
+mas 'Slack', id: 803453959
+mas 'Skitch', id: 425955336
+mas 'TextWrangler', id: 404010395
+mas 'Things 3', id: 904280696
 mas 'Tweetbot', id: 557168941
+
