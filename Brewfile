@@ -43,7 +43,7 @@ cask 'torbrowser'
 cask 'transmission'
 cask 'virtualbox'
 
-# Mac App Store apps, installed with https://github.com/argon/mas
+# Mac App Store apps, installed with https://github.com/mas-cli/mas
 mas '1Password', id: 443987910
 mas 'CCMenu', id: 603117688
 mas 'Evernote', id: 406056744
@@ -52,5 +52,5 @@ mas 'Slack', id: 803453959
 mas 'Skitch', id: 425955336
 mas 'TextWrangler', id: 404010395
 mas 'Things 3', id: 904280696
-mas 'Tweetbot', id: 557168941
+# mas 'Tweetbot', id: 557168941
 
