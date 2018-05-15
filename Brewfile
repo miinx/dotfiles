@@ -35,8 +35,9 @@ cask 'atom'
 cask 'authy'
 cask 'aws-vault'
 cask 'caffeine'
+cask 'dbglass'
 cask 'docker'
-cask 'dropbox'
+# cask 'dropbox'  ## Only likes being installed once.
 cask 'firefox'
 cask 'flux'
 cask 'gimp'
@@ -49,9 +50,9 @@ cask 'iterm2'
 cask 'karabiner-elements'
 cask 'licecap'
 cask 'muzzle'
-cask 'psequel'
+# cask 'psequel'  ## 15/5/18 Not working on MacOS 10.13 High Sierra
 cask 'sketch'
-cask 'skitch'
+# cask 'skitch'  ## Only likes being installed once. Installed via MAS CLI below.
 cask 'spectacle'
 cask 'the-unarchiver'
 cask 'torbrowser'
@@ -66,6 +67,7 @@ mas 'Quiver', id: 866773894
 mas 'Slack', id: 803453959
 mas 'Skitch', id: 425955336
 mas 'TextWrangler', id: 404010395
-mas 'Things 3', id: 904280696
+mas 'Things3', id: 904280696
 # mas 'Tweetbot', id: 557168941
+mas 'Xcode', id: 497799835
 
