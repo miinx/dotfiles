@@ -26,16 +26,19 @@ brew 'svgo'
 brew 'ruby-install'
 brew 'the_platinum_searcher'
 brew 'tree'
-# brew 'watchman'
 brew 'yarn'
+
+## This is FB's watchman https://github.com/facebook/watchman
+## Can't recall why I commented it out here.
+## It's installed on this system.
+## Maybe complained that I re-ran dotfiles installer?
+# brew 'watchman' 
 
 # Mac apps, installed with https://caskroom.github.io/
 cask 'alfred'
-cask 'atom'
 cask 'authy'
 cask 'aws-vault'
 cask 'caffeine'
-cask 'dbglass'
 cask 'docker'
 # cask 'dropbox'  ## Only likes being installed once.
 cask 'firefox'
@@ -50,10 +53,10 @@ cask 'iterm2'
 cask 'karabiner-elements'
 cask 'licecap'
 cask 'muzzle'
-# cask 'psequel'  ## 15/5/18 Not working on MacOS 10.13 High Sierra
 cask 'sketch'
 # cask 'skitch'  ## Only likes being installed once. Installed via MAS CLI below.
 cask 'spectacle'
+cask 'tableplus'
 cask 'the-unarchiver'
 cask 'torbrowser'
 cask 'transmission'
