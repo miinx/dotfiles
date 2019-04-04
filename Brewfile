@@ -1,8 +1,9 @@
 tap 'homebrew/bundle'
 tap 'homebrew/services'
-tap 'caskroom/cask'
+tap  'homebrew/cask'
 
 brew 'awscli'
+# brew 'candid82/brew/joker' # for visualclojure VSCode extension
 brew 'chruby'
 brew 'entr'
 brew 'git'
@@ -26,13 +27,13 @@ brew 'svgo'
 brew 'ruby-install'
 brew 'the_platinum_searcher'
 brew 'tree'
-brew 'yarn'
+brew 'yarn --ignore-dependencies'
 
 ## This is FB's watchman https://github.com/facebook/watchman
 ## Can't recall why I commented it out here.
 ## It's installed on this system.
 ## Maybe complained that I re-ran dotfiles installer?
-# brew 'watchman' 
+# brew 'watchman'
 
 # Mac apps, installed with https://caskroom.github.io/
 cask 'alfred'
@@ -51,6 +52,7 @@ cask 'inkscape'
 cask 'istat-menus'
 cask 'iterm2'
 cask 'karabiner-elements'
+cask 'kdiff3'
 cask 'licecap'
 cask 'muzzle'
 cask 'sketch'
