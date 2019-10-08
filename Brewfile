@@ -30,12 +30,10 @@ brew 'tree'
 brew 'yarn --ignore-dependencies'
 
 ## This is FB's watchman https://github.com/facebook/watchman
-## Can't recall why I commented it out here.
-## It's installed on this system.
-## Maybe complained that I re-ran dotfiles installer?
-# brew 'watchman'
+brew 'watchman'
 
 # Mac apps, installed with https://caskroom.github.io/
+cask 'adoptopenjdk8'
 cask 'alfred'
 cask 'authy'
 cask 'aws-vault'
