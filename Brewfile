@@ -1,13 +1,11 @@
 tap 'homebrew/bundle'
 tap 'homebrew/services'
-tap  'homebrew/cask'
+tap 'homebrew/cask'
 
 brew 'awscli'
 brew 'chruby'
 brew 'colordiff'
 brew 'entr'
-brew 'git'
-brew 'go'
 brew 'heroku'
 brew 'httpie'
 brew 'libmaxminddb'
@@ -26,8 +24,10 @@ brew 'tree'
 
 # brew 'node'
 # brew 'yarn --ignore-dependencies'
-# brew 'candid82/brew/joker' # for visualclojure VSCode extension
-# brew 'leiningen' # for clojure
+# brew 'candid82/brew/joker' ## for visualclojure VSCode extension
+# brew 'leiningen' ## for clojure
+# brew 'go' ## for golang
+
 
 # Mac apps, installed with https://caskroom.github.io/
 # cask 'adoptopenjdk8'
